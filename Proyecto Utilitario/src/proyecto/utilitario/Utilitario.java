@@ -18,9 +18,7 @@ public class Utilitario {
            //Parte Arriba
         for (int i = 0; i<_numero; i++){ 
             
-            System.out.print("*");
-            
-           
+            System.out.print("*");         
         };
         System.out.println("");
        
