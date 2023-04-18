@@ -10,8 +10,11 @@ package proyecto.utilitario;
  * @author nicoarkano
  */
 public class Utilitario {
-  
-    private String cadena="";
+
+    @SuppressWarnings("empty-statement")
+
+    
+   
     public void dibujaCuadrado(int _numero){
       
 
@@ -49,6 +52,61 @@ public class Utilitario {
         }
        
         
-       
+    public void elMayorEs(int a, int b, int c){
+    
+            if (a > b && a > c) {
+                System.out.println("El numero "  + a + " es el mas grande");
+                  
+            }
+            else if( b > a && b> c){
+                System.out.println(b);
+            }
+            else if(a==b & a==c){
+                System.out.println("Son iguales");}
+            else{
+                System.out.println(c);
+            }
+          
+    }   
+    public void elDiaEs(int num){
+      
+       switch(num) {
+           case(1): {
+               System.out.println("Lunes");
+               break;
+           }
+           case(2): {
+               System.out.println("Martes");
+               break;
+           }
+           case(3): {
+               System.out.println("Miercoles");
+               break;
+           }
+           case(4): {
+               System.out.println("Jueves");
+               break;
+           }
+           case(5): {
+               System.out.println("Viernes");
+               break;
+           }
+           case(6): {
+               System.out.println("Sabado");
+               break;
+           }
+           case(7): {
+               System.out.println("Domingo");
+               break;
+           }
+           default: {
+               System.out.println("No es un dia!!");
+               break;
+           }
+       }
+        
+    
+    }
       
     }
+ 
