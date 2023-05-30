@@ -18,5 +18,5 @@ public Animal(String nombre, String alimento, int edad, String raza){
 
 // mostrar luego un mensaje por pantalla informando de que se alimenta.
 public void alimentarse(){
-    System.out.println("El animal se alimenta de" + alimento);}
+    System.out.println("El animal se alimenta de " + alimento);}
 }
